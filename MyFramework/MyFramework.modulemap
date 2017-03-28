@@ -1,0 +1,10 @@
+framework module MyFramework {
+    explicit module Models {
+        header "MyFrameworkModels.h"
+        export *
+    }
+    explicit module API {
+        header "MyFrameworkAPI.h"
+        export *
+    }
+}

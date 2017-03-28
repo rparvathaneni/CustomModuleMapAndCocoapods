@@ -1,0 +1,24 @@
+{
+  "name": "MyFramework",
+  "summary": "MyFramework",
+  "homepage": "git@github.com:MyFramework/MyFramework.git",
+  "authors": {
+    "My Team": "myteam@myteam.com"
+  },
+  "license": {
+    "type": "NONE",
+    "text": "NONE"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "version": "0.0.1",
+  "source": {
+    "git": "git@github.com:MyFramework/MyFramework.git",
+    "tag": "0.0.1"
+  },
+  "frameworks": "Foundation",
+  "module_map": "MyFramework.modulemap",
+  "source_files": "*/**/*.{h,m,swift}",
+  "requires_arc": true
+}
